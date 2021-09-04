@@ -1,15 +1,12 @@
 import { BrowserRouter, Route, Switch} from "react-router-dom";
-import BeginnerPage from './pages/BeginnerPage/BeginnerPage';
-import IntermediatePage from './pages/IntermediatePage/IntermediatePage';
-import AdvancedPage from './pages/AdvancedPage/AdvancedPage';
+import HomePage from './pages/HomePage/HomePage'
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/beginner" component={BeginnerPage}/>
-        <Route path="/intermediate" component={IntermediatePage}/>
-        <Route path="/advanced" component={AdvancedPage}/>
+        <Route path="/" exact component={HomePage}/>
+        <Route path="/:difficulty" component={HomePage}/>
       </Switch>
     </BrowserRouter>
   );
