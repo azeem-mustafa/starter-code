@@ -1,0 +1,72 @@
+[
+    {
+        "id": "01",
+        "title": "What is web development",
+        "channel": "Ecourse Review",
+        "image": "https://imgur.com/Iu7mM5F",
+        "video": "https://www.youtube.com/watch?v=GEfuOMzRgXo&ab_channel=EcourseReview"
+    },
+    {
+        "id": "02",
+        "title": "HTML crash course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/nqlWZkM",
+        "video":"https://www.youtube.com/watch?v=UB1O30fR-EE&t=2772s&ab_channel=TraversyMedia"
+    },
+    {
+        "id": "03",
+        "title": "CSS crash course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/lTpg13Z",
+        "video":"https://www.youtube.com/watch?v=yfoY53QXEnI&list=RDLVUB1O30fR-EE&index=2&ab_channel=TraversyMedia"
+    },
+    {
+        "id": "04",
+        "title": "JS crash course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/k5J3Ry8",
+        "video":"https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2303s&ab_channel=TraversyMedia"
+    },
+    {
+        "id": "05",
+        "title": "React Crash Course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/BZKWTQU",
+        "vide" : "https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia"
+    },
+    {
+        "id": "06",
+        "title": "Pyhton Crash Course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/8z1e7rG",
+        "video":"https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org"
+    },
+    {
+        "id": "07",
+        "title": "Angular Crash Course",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/zpMRNAV",
+        "video":"https://www.youtube.com/watch?v=3dHNOWTI7H8&ab_channel=TraversyMedia"
+    },
+    {
+        "id": "08",
+        "title": "Python Socket Programming",
+        "channel": "Traversy Media",
+        "image": "https://imgur.com/CTHpV91",
+        "video":"https://www.youtube.com/watch?v=3QiPPX-KeSc&ab_channel=TechWithTim"
+    },
+    {
+        "id": "09",
+        "title": "Creating a chat react app",
+        "channel": "JavaScript Mastery",
+        "image": "https://imgur.com/mOae9q0",
+        "video":"https://www.youtube.com/watch?v=jcOKU9f86XE&ab_channel=JavaScriptMastery"
+    },
+    {
+        "id": "10",
+        "title": "Creating a progressive web application",
+        "channel": "dcode",
+        "image": "https://imgur.com/Qe9xGw8",
+        "video":"https://www.youtube.com/watch?v=WbbAPfDVqfY&ab_channel=dcode"
+    }
+  ]
