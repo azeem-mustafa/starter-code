@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const resourceFile = "./data/resources.json";
+const { v4: uuidv4 } = require("uuid");
 
 app.use(express.json());
 
@@ -12,7 +13,7 @@ const readData = () => {
 };
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome To Starter-Code Server");
 });
 
 app.get("/learn", (req, res) => {
@@ -22,6 +23,26 @@ app.get("/learn", (req, res) => {
   } catch (err) {
     res.status(500).json({ error: `There has been an error ${err}` });
   }
+});
+
+app.post("/learn", (req, res) => {
+  console.log("req body", req.body);
+
+  const newResource = {
+    id: uuidv4(),
+    title: req.body.title,
+    channel: req.body.channel,
+    image: req.body.image,
+    video: req.body.video,
+    description: req.body.description,
+  };
+
+  const newData = readData();
+  newData.push(newResource);
+
+  fs.writeFileSync(resourceFile, JSON.stringify(newData));
+
+  return res.status(202).json(newResource);
 });
 
 app.listen(8080, () => console.log("App is listening on port 8080"));
