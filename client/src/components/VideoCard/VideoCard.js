@@ -4,19 +4,25 @@ import './_videoCard.scss';
 const VideoCard = ({video}) => {
     console.log(video)
     return (
-        <div>
+        <div className='video'>
+        <div className='video-card'>
         {video.map((video) => (
         <div>
-           <img src= {video.image} alt="" />
+            <div className='video-card__img'>
+           <img className='video-card__real-img' src= {video.image} alt="" />
+           </div>
+           <div className="video-card__title">
            <p>Difficulty Level: {video.difficulty} </p> 
-           <p>{video.channel}</p>
+           
             <p>{video.title}</p>
             <p>{video.video}</p>
-            <p>{video.description}</p>
+           
+            </div>
 
            
         </div>
     ))}</div>
+    </div>
     )}
 
 export default VideoCard;

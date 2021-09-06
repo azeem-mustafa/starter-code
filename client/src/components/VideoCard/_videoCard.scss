@@ -15,16 +15,24 @@
 
     &__img{
         overflow: hidden;
-        height: 70%;
+       
        
     }
 
     &__title{
         flex-grow: 2;
         background-color: lightgreen;
-        height: 30%;
+        height: 200px;
         text-align: center;
         font-weight: 700;
         color: black;
+        p{
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        }
+    }
+
+    &__real-img{
+        height: 150px;
     }
 }
