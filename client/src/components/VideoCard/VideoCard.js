@@ -1,4 +1,5 @@
 import React from 'react';
+import './_videoCard.scss';
 
 const VideoCard = ({video}) => {
     if (video.length > 4) return (
