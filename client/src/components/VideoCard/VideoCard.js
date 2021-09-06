@@ -1,7 +1,10 @@
 import React from 'react';
 
 const VideoCard = ({video}) => {
-    console.log(video)
+    if (video.length > 4) return (
+        <h4 className="video-difficulty">gotta start somewhere...</h4>
+    )
+    
     return (
         <div>
         {video.map((video) => (
