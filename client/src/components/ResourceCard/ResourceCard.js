@@ -10,21 +10,21 @@ import './_resourceCard.scss';
 
 
 const ResourceCard = ({video}) => {
-    return (
+    return ( video.map((video) => {
         <div className="resources">
            <div className="card">
             
                <div className="card__pic">   
                </div>
                <div className="card_desc">
-                       <h2>THIS TITLE ISSSSS {video.title}</h2>
-                       <p>desc</p>
+                       <h2>{video.title}</h2>
+                       <p>{video.descriptions}</p>
                    </div>
            </div>
             
             
         </div>
-    );
+    }))
 };
 
 export default ResourceCard;
