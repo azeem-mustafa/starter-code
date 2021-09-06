@@ -7,6 +7,10 @@ const { v4: uuidv4 } = require("uuid");
 
 app.use(express.json());
 
+//For static assets
+app.use(express.static("asset"));
+app.use("/static-files", express.static("asset"));
+
 const readData = () => {
   const data = JSON.parse(fs.readFileSync(resourceFile));
   return data;
