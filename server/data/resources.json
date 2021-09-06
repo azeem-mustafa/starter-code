@@ -3,6 +3,7 @@
     "id": "01",
     "title": "What is web development",
     "channel": "Ecourse Review",
+    "difficulty": "Beginner",
     "image": "https://i.imgur.com/Iu7mM5F.png",
     "video": "https://www.youtube.com/watch?v=GEfuOMzRgXo&ab_channel=EcourseReview",
     "description": "Web development usually refers to activities related to website functionalities development. Although every website is developed a little differently, there are three fundamental components that conduct every interaction between a user and the site."
@@ -11,6 +12,7 @@
     "id": "02",
     "title": "HTML crash course",
     "channel": "Traversy Media",
+    "difficulty": "Beginner",
     "image": "https://i.imgur.com/nqlWZkM.png",
     "video": "https://www.youtube.com/watch?v=UB1O30fR-EE&t=2772s&ab_channel=TraversyMedia",
     "description": "In this crash course I will cram as much about HTML that I can. This is meant for absolute beginners. If you are interested in learning HTML but know nothing, then you are in the right place. We will be creating a cheat sheet with all of the common HTML5 tags, attributes, semantic markup, etc. We will not be focusing on CSS in this video."
@@ -19,6 +21,7 @@
     "id": "03",
     "title": "CSS crash course",
     "channel": "Traversy Media",
+    "difficulty": "Beginner",
     "image": "https://i.imgur.com/lTpg13Z.png",
     "video": "https://www.youtube.com/watch?v=yfoY53QXEnI&list=RDLVUB1O30fR-EE&index=2&ab_channel=TraversyMedia",
     "description": "In this video I will cram as much as possible about CSS. We will be looking at styles, selectors, declarations, etc. We will build a CSS cheat sheet that you can keep as a resource and we will also create a basic website layout. We are using CSS3 but mostly the basics. I will be creating an advanced CSS course with animations,etc."
@@ -27,6 +30,7 @@
     "id": "04",
     "title": "JS crash course",
     "channel": "Traversy Media",
+    "difficulty": "Beginner",
     "image": "https://i.imgur.com/k5J3Ry8.png",
     "video": "https://www.youtube.com/watch?v=hdI2bqOjy3c&t=2303s&ab_channel=TraversyMedia",
     "description": "In this crash course we will go over the fundamentals of JavaScript including more modern syntax like classes, arrow functions, etc. This is the starting point on my channel for learning JS."
@@ -35,6 +39,7 @@
     "id": "05",
     "title": "React Crash Course",
     "channel": "Traversy Media",
+    "difficulty": "Intermediate",
     "image": "https://i.imgur.com/BZKWTQU.png",
     "video": "https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia",
     "description": "Get started with React in this crash course. We will be building a task tracker app and look at components, props, state, hooks, working with an API and more."
@@ -43,6 +48,7 @@
     "id": "06",
     "title": "Pyhton Crash Course",
     "channel": "Traversy Media",
+    "difficulty": "Intermediate",
     "image": "https://i.imgur.com/8z1e7rG.png",
     "video": "https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org",
     "description": "This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!"
@@ -51,15 +57,16 @@
     "id": "07",
     "title": "Angular Crash Course",
     "channel": "Traversy Media",
+    "difficulty": "Intermediate",
     "image": "https://i.imgur.com/zpMRNAV.png",
     "video": "https://www.youtube.com/watch?v=3dHNOWTI7H8&ab_channel=TraversyMedia",
     "description": "Learn the fundamentals of Angular in this project-based crash course"
   },
-
   {
     "id": "09",
     "title": "C++ crash course",
     "channel": "TraversyMedia",
+    "difficulty": "Intermediate",
     "image": "https://i.imgur.com/yS7HiUl.png",
     "video": "https://www.youtube.com/watch?v=1v_4dL8l8pQ&ab_channel=TraversyMedia",
     "description": "n this beginner crash course, you will learn the fundamentals of C++"
@@ -68,6 +75,7 @@
     "id": "08",
     "title": "Python Socket Programming",
     "channel": "Traversy Media",
+    "difficulty": "Advanced",
     "image": "https://i.imgur.com/CTHpV91.png",
     "video": "https://www.youtube.com/watch?v=3QiPPX-KeSc&ab_channel=TechWithTim",
     "description": "This socket programming tutorial will show you how to connect multiple clients to a server using python 3 sockets. It covers how to send messages from clients to server and from server to clients. I will also show you how to host your socket server locally or globally across the internet so anyone can connect. This uses the python 3 socket and threading module."
@@ -76,15 +84,16 @@
     "id": "10",
     "title": "Creating a chat react app",
     "channel": "JavaScript Mastery",
+    "difficulty": "Advanced",
     "image": "https://i.imgur.com/mOae9q0.png",
     "video": "https://www.youtube.com/watch?v=jcOKU9f86XE&ab_channel=JavaScriptMastery",
     "description": "LEARN: Sockets, Rest APIs, Sending Images, React Hooks, Props, and CSS!"
   },
-
   {
     "id": "11",
     "title": "Advance Angular Elements",
     "channel": "Fireship",
+    "difficulty": "Advanced",
     "image": "https://i.imgur.com/MtRiJ0r.png",
     "video": "https://www.youtube.com/watch?v=ujaMvl5M8nY&ab_channel=Fireship",
     "description": "Learn how to build a high-octane 🚀📦 web component with Angular Elements that lazy loads images and achieves a near perfect lighthouse perf"
@@ -93,6 +102,7 @@
     "id": "12",
     "title": "Creating a progressive web application",
     "channel": "dcode",
+    "difficulty": "Advanced",
     "image": "https://i.imgur.com/Qe9xGw8.png",
     "video": "https://www.youtube.com/watch?v=WbbAPfDVqfY&ab_channel=dcode",
     "description": "In today's video I'll be showing you how to create a Progressive Web Application (or PWA) using HTML and JavaScript."
