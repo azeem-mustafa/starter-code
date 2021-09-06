@@ -1,0 +1,30 @@
+.video{
+    padding-left: 120px;
+    margin-top: 70px;
+}
+
+.video-card{
+    border: solid 1px black;
+    width: 20%;
+    height: 200px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 2;
+
+    &__img{
+        overflow: hidden;
+        height: 70%;
+       
+    }
+
+    &__title{
+        flex-grow: 2;
+        background-color: lightgreen;
+        height: 30%;
+        text-align: center;
+        font-weight: 700;
+        color: black;
+    }
+}

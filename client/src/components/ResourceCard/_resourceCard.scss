@@ -1,6 +1,7 @@
 .resources{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .card{
@@ -9,6 +10,8 @@
     width: 200px;
     display: flex;
     flex-direction: column;
+    border-radius: 5%;
+    overflow: hidden;
 
     &__pic{
         border: lightgreen 0.5px solid;
@@ -24,4 +27,14 @@
     overflow: hidden;
     height: 200px;
     object-fit: contain;
+}
+
+.card_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        text-align: center;
+    }
 }
