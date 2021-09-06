@@ -1,0 +1,27 @@
+.resources{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 2px black solid;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    &__pic{
+        border: lightgreen 0.5px solid;
+        height: 150px;
+        background-image: url('../../assests/images/img13.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+}
+.pic{
+    overflow: hidden;
+    height: 200px;
+    object-fit: contain;
+}

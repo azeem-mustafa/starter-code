@@ -3,6 +3,10 @@ import Selector from '../../components/Selector/Selector';
 import ResourceCard from '../../components/ResourceCard/ResourceCard';
 import VideoCard from '../../components/VideoCard/VideoCard';
 
+import './_homePage.scss';
+
+
+
 class HomePage extends Component {
     state = {
         videos: [],
@@ -10,7 +14,8 @@ class HomePage extends Component {
     }
     render() {
         return (
-            <div>
+            <div className= "body">
+
                 <Selector />
                 <VideoCard />
                 <ResourceCard />
