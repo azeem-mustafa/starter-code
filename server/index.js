@@ -1,12 +1,12 @@
-const { json } = require("express");
+const { json, response } = require("express");
 const express = require("express");
 const app = express();
 const fs = require("fs");
 const resourceFile = "./data/resources.json";
 const { v4: uuidv4 } = require("uuid");
-
+const cors = require("cors");
 app.use(express.json());
-
+app.use(cors());
 //For static assets
 app.use(express.static("asset"));
 app.use("/static-files", express.static("asset"));

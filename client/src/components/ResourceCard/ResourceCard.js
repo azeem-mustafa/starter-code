@@ -9,7 +9,7 @@ import Img7 from '../../assests/images/img7.png';
 import './_resourceCard.scss';
 
 
-const ResourceCard = () => {
+const ResourceCard = ({video}) => {
     return (
         <div className="resources">
            <div className="card">
@@ -17,7 +17,7 @@ const ResourceCard = () => {
                <div className="card__pic">   
                </div>
                <div className="card_desc">
-                       <h2>Title</h2>
+                       <h2>THIS TITLE ISSSSS {video.title}</h2>
                        <p>desc</p>
                    </div>
            </div>
