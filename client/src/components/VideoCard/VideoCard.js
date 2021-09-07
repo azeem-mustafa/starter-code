@@ -7,9 +7,11 @@ const VideoCard = ({video}) => {
     )
     
     return (
-        <div className='video'>
+        <div className="video-cardbox">
+            {video.map((video) => (
+                <div className='video'>
         <div className='video-card'>
-        {video.map((video) => (
+        
         <div>
             <div className='video-card__img'>
            <img className='video-card__real-img' src= {video.image} alt="" />
@@ -18,13 +20,16 @@ const VideoCard = ({video}) => {
            <p>Difficulty Level: {video.difficulty} </p> 
            
             <p>{video.title}</p>
-            <p>{video.video}</p>
+            <a href={video.video}>Watch on Youtube</a>
            
             </div>
 
            
         </div>
-    ))}</div>
+        </div>
+        </div>
+    ))}
+    
     </div>
     )}
 
