@@ -1,12 +1,14 @@
 .footer{
     display: flex;
     height: 150px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #5CFFFF;
     padding-left: 70px;
     padding-right: 70px;
     border-bottom: 10px solid cornsilk;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
 
 .footer__logo{
