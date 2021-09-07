@@ -16,6 +16,7 @@ const Selector = ({onChangeHandler}) => {
         <option value="Intermediate">Intermediate</option>
         <option value="Advanced">Advanced</option>
       </select>
+      <a className="reset" href="/">RESET</a>
       
     </div>
   );

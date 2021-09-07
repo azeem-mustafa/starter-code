@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+.reset {
+  width: 8rem;
+  padding: .5rem;
+  background-color: crimson;
+  font-family: "Inconsolata", monospace;
+  color: whitesmoke;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 10px;
+}
 .selector {
   display: flex;
   flex-direction: column;
@@ -6,6 +17,8 @@
 
   &__label {
     font-size: 40px;
+    padding-top: 2rem;
+    font-family: "Inconsolata", monospace;
   }
 
   &__drop {
@@ -16,5 +29,6 @@
     padding: 1rem;
     height: 100px;
     width: 80%;
+    color: rebeccapurple;
   }
 }

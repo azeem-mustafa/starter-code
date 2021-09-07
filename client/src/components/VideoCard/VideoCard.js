@@ -3,7 +3,7 @@ import './_videoCard.scss';
 
 const VideoCard = ({video}) => {
     if (video.length > 4) return (
-        <h4 className="video-difficulty">gotta start somewhere...</h4>
+        <div className="video-difficulty" className="rotate-in-center"></div>
     )
     
     return (

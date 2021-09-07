@@ -1,7 +1,14 @@
 .header{
+    background-image: url("../../assests/images/img1.png");
+    background-size: cover;
     display: flex;
     height: 150px;
     justify-content: center;
     align-items: center;
     background-color: lightgreen;
+    border-bottom: 10px solid cornsilk;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3rem;
+    color: rebeccapurple;
 }
+   
